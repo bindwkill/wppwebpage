@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Whatsapp Web - Falar com quem não é contato</title>
+	<link data-default-icon="https://static.whatsapp.net/rsrc.php/v4/yP/r/rYZqPCBaG70.png" rel="shortcut icon"
+		href="https://static.whatsapp.net/rsrc.php/v4/yP/r/rYZqPCBaG70.png">
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<header align=center>
+		<h1>WhatsApp Web - Iniciar conversa com contato não salvo</h1>
+		<h2>Não se esqueça de fechar outras abas do Whatsapp antes dar Enter</h2>
+		<h2>É preciso ter logado no WhatsApp Web neste navegador anteriormente para funcionar</h2>
+	</header>
+	<section>
+		<form action='https://web.whatsapp.com/send'>
+			<fieldset align=center>
+				<legend>WhatsApp Web</legend>
+				<label for="phone">Telefone de contato (com DDD):</label><br>
+				<input type="text" name="phone" class='phoneField' autofocus><br><br>
+				<input type="submit" value="Iniciar Conversa" class='button'>
+				<a href='https://web.whatsapp.com/'>
+					<input type="button" value="Abrir WhatsApp Web" class='button'>
+				</a>
+			</fieldset>
+		</form>
+	</section>
+	<script src="code.js"></script>
+</body>
+
+</html>
